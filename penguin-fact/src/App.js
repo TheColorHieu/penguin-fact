@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 
+
 function App() {
   //here we are going to add a useState hook
   const [facts, setFacts] = useState("");
@@ -32,6 +33,7 @@ function App() {
   return (
     <div className="PenguinTitle">
       <p>WELCOME TO THE WORLD OF PENGUINS!!</p>
+      <img src="photo.jpg" alt="baby-penguin" width="500" height="300"></img>
       <div className="ButtonContainer">
       <button onClick={handleClick}>Generate Random Fact !</button>
     </div>
