@@ -1,0 +1,51 @@
+/* here we target the class PenguinTittle but then we chose the <p> in order to target the specifics */
+.PenguinTitle, p {
+  color: blue;
+  text-align: center;
+  font-size: 50px;
+  background-color: blanchedalmond;
+}
+
+.PenguinTitle, html{
+  background-color:wheat ;
+  
+}
+
+button{
+  background-color: blanchedalmond;
+  color: blue;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ButtonContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: blanchedalmond;
+  color: blue;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
